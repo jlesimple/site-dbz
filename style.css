@@ -37,7 +37,7 @@ menu > a {
   padding-bottom: 5px;
   background-color: rgb(222,34,28); /* rouge baton goku*/
   border: 2px solid black;
-  border-radius: 60px;
+  border-radius: 30px;
   box-shadow: 5px 5px 5px Black;
   font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
   font-size: 25px;
@@ -78,7 +78,7 @@ footer {
   display: grid;
   margin : 40px;
   background-color: rgb(222,34,28); /* rouge baton goku*/
-  border-radius: 60px;
+  border-radius: 30px;
   margin-top: 50px;
   font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
   text-align: center;
