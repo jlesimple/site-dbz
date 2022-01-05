@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: orange;
+  background-color: rgb(224,85,0); /* orange goku*/
 }
 
 .grid {
@@ -40,14 +40,15 @@ menu{
 
 }
 menu > a {
-  grid-row-start: 2; 
+  grid-row-start: 2;
   margin: 5px;
   padding: 10px;
   font-size: 20px;
   border: 1px solid black;
   border-radius: 10px;
   text-decoration-line: none;
-  color: orange;
+  color: rgb(224,85,0); /* orange goku*/
+  background-color: rgb(222,34,28); /* rouge baton goku*/
 }
 
 div{
@@ -60,7 +61,9 @@ main{
 }
 
 main > img{
-
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .medium{
