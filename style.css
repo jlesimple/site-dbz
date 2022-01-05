@@ -4,20 +4,13 @@ body {
   background-color: rgb(224,85,0); /* orange goku*/
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto;
-  }
-
 header {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 2fr 2fr;
-  grid-template-rows: 100px;
-  grid-column: 100%;
+  grid-template-rows: 1fr;
   margin: 0;
   padding: 0;
-  grid-gap :2px;
+  grid-gap :20px;
   background-color: rgb(0,66,255); /* bleu goku*/
   border-top: solid 1px black;
   border-bottom: solid 1px black;
@@ -26,16 +19,13 @@ header {
 header > img {
   max-width: 190px;
   min-height: auto;
-  padding-left: 15PX;
+  padding-left: 20px;
   text-align: center;
   vertical-align: middle;
 }
 
 menu{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 20px;
 }
 
 menu > a {
@@ -50,13 +40,12 @@ menu > a {
   border-radius: 60px;
   box-shadow: 5px 5px 5px Black;
   font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
-  text-shadow: 2px 2px 2px black;
-  font-size: 20px;
+  font-size: 25px;
+  text-shadow: 2px 2px 1px black, 0 0 2px black,0 0 2px black;
   color: rgb(224,85,0); /* orange goku*/
   text-align: center;
   vertical-align: middle;
   text-decoration-line: none;
-
 }
 
 main{
@@ -83,8 +72,6 @@ main > .centre{
 }
 
 main > p{
-
-
 }
 
 footer {
