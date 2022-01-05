@@ -8,13 +8,12 @@ body {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto auto;
-
   }
 
 header {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 2fr 2fr;
-  grid-template-rows: 125px;
+  grid-template-rows: 100px;
   grid-column: 100%;
   margin: 0;
   padding: 0;
@@ -25,11 +24,10 @@ header {
 
 header > img {
   max-width: 190px;
-  min-height: 125px;
+  min-height: auto;
   padding-left: 15PX;
   text-align: center;
   vertical-align: middle;
-
 }
 
 menu{
@@ -37,18 +35,21 @@ menu{
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 20px;
-
 }
+
 menu > a {
   grid-row-start: 2;
-  margin: 5px;
-  padding: 10px;
+  margin: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
   font-size: 20px;
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 60px;
   text-decoration-line: none;
   color: rgb(224,85,0); /* orange goku*/
+  background: linear-gradient (to top, red, blue);
   background-color: rgb(222,34,28); /* rouge baton goku*/
+  text-align: center;
 }
 
 div{
@@ -57,7 +58,6 @@ div{
 
 
 main{
-
 }
 
 main > img{
@@ -74,7 +74,9 @@ main > img{
 
 footer {
   display: grid;
-  background-color: rgb(0,40,255);
+  margin : 40px;
+  background-color: rgb(222,34,28); /* rouge baton goku*/
+  border-radius: 60px;
   margin-top: 50px;
   text-align: center;
 }
