@@ -59,10 +59,10 @@ main{
 
 main > img{
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top:3px solid black;
+  border-bottom:3px solid black;
 }
 
 main > .centre{
