@@ -59,6 +59,7 @@ main{
 }
 
 main > img{
+  grid-row-start :1;
   width: 100%;
   height: 100%;
   display: block;
@@ -71,13 +72,29 @@ main > .centre{
   margin: 5px;
   padding: 5px;
   border: 1px solid black;
+  text-align: center;
+}
+.centre > img {
+
+  max-width: 750px;
+  max-height: 375px;
+  margin: auto;
+
 }
 
-main > p{
+h1{
+  font-size: 75px;
+  text-align: center;
+}
+h2{
+  font-size: 50px;
+  text-align: center;
 }
 
-.footer{
-  }
+p{
+  font-size: 24px;
+  text-align: justify;
+}
 
 footer {
   grid-row-start: 3;
