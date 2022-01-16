@@ -4,7 +4,7 @@
 }
 
 @font-face {
-  font-family: 'Anime Ace';
+  font-family: 'animeace2_reg';
   src: url("fonts/animeace2_reg.ttf");
 }
 
@@ -42,8 +42,8 @@ menu > a {
   border: 2px solid black;
   border-radius: 30px;
   box-shadow: 5px 5px 5px Black;
-  font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
-  font-size: 2em;
+  font-family: Impact;
+  font-size: 40px;
   text-shadow: 2px 2px 1px black, 2px 0 4px black,2px 0 4px black;
   color: rgb(224,85,0); /* orange goku*/
   text-align: center;
@@ -104,10 +104,10 @@ h2{
 }
 
 p{
-  font-size: 24px;
+  font-size: 20px;
   text-align: justify;
   padding: 25px;
-  font-family: 'Kronika'
+  font-family: 'animeace2_reg';
 }
 
 footer {
