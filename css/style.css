@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Mochiy_Pop_P_One';
+  src : url("fonts/MochiyPopPOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Anime Ace';
+  src: url("fonts/animeace2_reg.ttf");
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -74,26 +84,30 @@ main > .centre{
   border: 1px solid black;
   text-align: center;
 }
-.centre > img {
 
+.centre > img {
   max-width: 750px;
   max-height: 375px;
   margin: auto;
-
 }
 
 h1{
   font-size: 75px;
   text-align: center;
+  font-family: 'Mochiy_Pop_P_One';
 }
+
 h2{
   font-size: 50px;
   text-align: center;
+  font-family: 'Mochiy_Pop_P_One';
 }
 
 p{
   font-size: 24px;
   text-align: justify;
+  padding: 25px;
+  font-family: 'Kronika'
 }
 
 footer {
